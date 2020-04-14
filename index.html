@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MrMkumbae Professional Portfolio</title>
+    <link href="css/portfolio.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>My Professional Portfolio</h1>
+    </header>
+
+    <nav>
+        <div class="logo">
+        </div>
+        <ul class="nav-links">
+            <li id="uno"><a href="#aboutMe">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+    </nav>
+
+    <main>
+        <section id="aboutMe">
+            <h2>About Me</h2>
+            <button data-modal-target="#modal">Open Bio</button>
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">My Bio</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    My name is Anthony David. As a dynamic junior software developer, my career goal is to advance
+                    the
+                    tech
+                    world by utilizing technology to find solutions to different real life problems. I believe that
+                    as
+                    rapidly as technology changes, there's still a vast opportunity for more innovations which are
+                    safe,
+                    cheaper and user friendly. Given that, I am committed to optimize my tech skills as mentioned
+                    below
+                    in
+                    this page to attain my goal.
+                </div>
+            </div>
+            <div id="overlay"></div>
+
+            <img src="images/Headshot_OG.jpg" alt="Headshot_OG.jpg">
+            <p>For more information I can be reached at the following contacts:</p>
+            <ul>
+                <li>Phone: <strong>614.615.6167</strong></li>
+                <li>Email: t_mauzo@yahoo.com </li>
+                <li><a href="https://github.com/MrMkumbae">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/anthony-david-8569591a2/">Linkedn</a></li>
+            </ul>
+            <h3>Skills</h3>
+            <ul>
+                <li>Web development</li>
+                <li>Software development</li>
+                <li>Software testing and debugging</li>
+                <li>Problem solving and logical thinking</li>
+                <li>Programing languages; Java, Javascript, CSS, HTML, SQL.</li>
+                <li>Attention to details</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Below are descriptions of various projects that I did. For deeper understanding what the project is
+                about, you can click the hyperlink (below the project's name) which will direct you to the specific web
+                page where the project is being hosted. </p>
+            <div id="my projects">
+                <article class="a1">
+                    <button class="toka">Virtual Pet</button>
+                    <div class="njoo">
+                        <p><a href="https://github.com/MrMkumbae/virtual-pet">Virtual Pet</a></p>
+                        <img id="pic" src="images/virtualPet.jpg" alt="Sample Logo">
+                        <p>The following skills and technologies were used to successfully carry out the project;
+                            coding,
+                            java, eclipse, git-bash, git-hub,and gradle.</p>
+                    </div>
+                </article>
+                <article class="a2">
+                    <button class="toka">Virtual Pet Amok</button>
+                    <div class="njoo">
+                        <p><a href="https://github.com/MrMkumbae/virtual-pet-amok">Virtual Per Amok.</a></p>
+                        <img id="pic" src="images/virtualPet-Amok.jpg" alt="Sample Logo">
+                        <p>The following skills and technologies were used to successfully carry out the project; TDD,
+                            collections, coding, java, eclipse, git-bash, git-hub,and gradle.</p>
+                    </div>
+                </article>
+                <article class="a3">
+                    <button class="toka">Reviews-Site</button>
+                    <div class="njoo">
+                        <p><a href="https://github.com/MrMkumbae/Reviews-Site">Reviews Site.</a></p>
+                        <img id="pic" src="images/virtualPet-Shelter.jpg" alt="Sample Logo">
+                        <p>The following skills and technologies were used to successfully carry out the project; html,
+                            css,
+                            TDD, spring boot, coding, java, eclipse, git-bash, git-hub, and gradle.</p>
+                    </div>
+                </article>
+
+                <img id="sshow" name="slide">
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        &copy; 2020 Mkumbae Inc.
+    </footer>
+
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>
